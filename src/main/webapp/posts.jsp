@@ -57,7 +57,7 @@
         <tr>
             <td>${u.getSeq()}</td>
             <td>${u.getCategory()}</td>
-            <td>${u.getTitle()}</td>
+            <td><a href="view.jsp?id=${u.getSeq()}">${u.getTitle()}</a></td>
             <td>${u.getWriter()}</td>
             <td>${u.getContent()}</td>
             <td>${u.getRegdate()}</td>
